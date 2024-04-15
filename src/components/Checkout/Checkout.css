@@ -1,0 +1,29 @@
+.checkout-wrapper {
+    gap: 100px;
+}
+
+.checkout-wrapper h1 {
+    margin-bottom: 50px;
+}
+
+.left-screen {
+    width: 60%;
+}
+
+.right-screen {
+    width: 40%;
+    margin-top: 50px;
+}
+
+.inputs-wrapper {
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.input {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    width: 220px;
+}

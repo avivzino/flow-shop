@@ -1,0 +1,8 @@
+.header {
+  background-color: #b3c8cf;
+  padding: 5px 5%;
+}
+
+.header .cart {
+  gap: 5px;
+}

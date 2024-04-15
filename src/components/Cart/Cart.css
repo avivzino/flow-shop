@@ -1,0 +1,26 @@
+.remove-item-btn {
+    background: none;
+    color: #e53935;
+    border: none;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.quantity-choosing {
+    gap: 10px;
+    font-size: 16px;
+}
+
+.quantity-button {
+    border: none;
+    background-color: #e0e0e0;
+    border-radius: 50%;
+    color: white;
+    font-size: 24px;
+    width: 30px;
+    transition: background-color 0.2s;
+}
+
+.quantity-button:hover {
+    background: #d5d5d5;
+}

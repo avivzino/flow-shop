@@ -1,0 +1,129 @@
+.flex {
+  display: flex;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.row {
+  flex-direction: row;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.calculated-height {
+  height: calc(100vh - 108px);
+}
+
+.justify-content-space-between {
+  justify-content: space-between;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.screen-wrapper {
+    padding: 50px 15%;
+    background-color: #f5f5f5;
+}
+
+.title {
+    font-weight: 600;
+    text-decoration: underline;
+    text-decoration-color: #B3C8CF;
+    color: #333;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white; 
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px; 
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.item-image {
+  width: 100px;
+  height: auto;
+  border-radius: 5px;
+}
+
+.total-amount {
+    font-size: 20px;
+    font-weight: 700;
+    color: #333;
+    text-align: right;
+    padding-top: 20px;
+}
+
+.primary-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #212121;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    gap: 5px;
+    transition: background-color 0.3s;
+}
+
+.primary-btn:hover {
+    background-color: #575757;
+}
+
+.loader {
+    border: 6px solid rgba(0, 0, 0, 0.1);
+    border-top: 6px solid #212121;
+    border-radius: 50%;
+    width: 30px; 
+    height: 30px;
+    animation: spin 1s linear infinite;
+    margin: 0 auto;
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .size-selector {
+    margin: 10px 0;
+  }
+  
+  .size-label {
+    margin-right: 10px;
+    font-weight: 500;
+  }
+  
+  .size-select {
+    font-size: 14px;
+    padding: 3px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+
+  @media only screen and (max-width: 760px) {
+    .screen-wrapper {
+      padding: 30px 5%;
+    }
+  }
