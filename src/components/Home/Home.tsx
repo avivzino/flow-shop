@@ -14,7 +14,10 @@ export const Home = () => (
             Save up to 50%
           </h2>
         </div>
-        <img src="flow-shop/woman.png" height={SMALL_SCREEN ? 350 : 800} />
+        <img
+          src="flow-shop/assets/woman.png"
+          height={SMALL_SCREEN ? 350 : 800}
+        />
       </div>
     </div>
     <ProductList />
